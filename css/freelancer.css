@@ -194,17 +194,18 @@ section.success {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  color: black;
+  color: white;
+  background-attachment: fixed;
 }
 section.success .back-bar {
   width: 100%;
-  mix-blend-mode: soft-light;
+  mix-blend-mode: multiply;
   padding: 1em 2em 1em 5%;
-  background-color: red;
+  background-color: #d85656;
+  background: linear-gradient(to right, #d85656, white 75%); /* Standard syntax */
 }
 
 section.success .back-bar h1 {
-  mix-blend-mode: color;
   font-size: 4em;
 }
 section.success .back-bar p {
@@ -448,6 +449,14 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
+}
+.portfolio-modal .modal-content .item-details li {
+  display: inline-block;
+  background-color: #d85656;
+  color: white;
+  border-radius: 3px;
+  padding: .5em 1em;
+  margin: 0 .25em;
 }
 .portfolio-modal .close-modal {
   position: absolute;
