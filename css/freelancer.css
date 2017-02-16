@@ -449,7 +449,8 @@ fieldset[disabled] .btn-success.active {
   font-size: .75em;
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
+  margin: 30px auto;
+  max-height: 600px;
 }
 .portfolio-modal .modal-content p {
   font-size: 1.2em;
