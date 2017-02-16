@@ -196,15 +196,18 @@ section.success {
   background-position: 50% 50%;
   color: black;
 }
-section.success .white-bar {
+section.success .back-bar {
   width: 100%;
   mix-blend-mode: soft-light;
   padding: 1em 2em 1em 5%;
-  background-color: white;
-  /*box-shadow: 0 0 25px 20px white;*/
+  background-color: red;
 }
 
-section.success .white-bar p {
+section.success .back-bar h1 {
+  mix-blend-mode: color;
+  font-size: 4em;
+}
+section.success .back-bar p {
   font-size: 1.1em;
 }
 
