@@ -444,6 +444,10 @@ fieldset[disabled] .btn-success.active {
   margin: 0;
   font-size: 3em;
 }
+.portfolio-modal .modal-content h2 a {
+  color: #d85656;
+  font-size: .75em;
+}
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
