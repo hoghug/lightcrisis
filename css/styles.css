@@ -48,7 +48,15 @@ section.success .back-bar {
   mix-blend-mode: multiply;
   padding: 1em 2em 1em 5%;
   background-color: #d85656;
-  background: linear-gradient(to right, #d85656, white 75%); /* Standard syntax */
+  background: linear-gradient(to right, #d85656, white 75%);
+}
+
+@media (max-width: 767px) {
+  section.success .back-bar {
+    background: #d85656;
+
+  }
+
 }
 
 section.success .back-bar h1 {
