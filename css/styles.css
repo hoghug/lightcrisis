@@ -65,9 +65,11 @@ section.success .back-bar {
 
 section.success .back-bar h1 {
   font-size: 4em;
+  letter-spacing: .05em;
 }
 section.success .back-bar p {
-  font-size: 1.1em;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
 
 @media (max-width: 767px) {
@@ -143,7 +145,7 @@ footer .col-lg-6 {
   margin-bottom: 6em;
 }
 footer h3 {
-  letter-spacing: .1em;
+  letter-spacing: .05em;
   /*display: inline-block;*/
 }
 footer a {
